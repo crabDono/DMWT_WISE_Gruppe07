@@ -33,7 +33,7 @@ const Information = () => {
         textPosition="left"
       /> */}
 
-      <InputField />
+      {/* <InputField /> */}
     </div>
   );
 };
