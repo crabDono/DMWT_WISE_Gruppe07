@@ -22,7 +22,7 @@ export default function Button({
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     console.log("Button clicked (inside Button component)");
-    // @ts-ignore
+    // @ts-xpect-error
     if (props.onClick) props.onClick(e); // leitet weiter an den Handler aus Hero
   };
 
